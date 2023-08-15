@@ -1,4 +1,7 @@
 package com.example.sport_live_score
 
-class App {
-}
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+@HiltAndroidApp
+class App : Application()
